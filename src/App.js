@@ -2,22 +2,48 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  const movies = [
+    {
+      name: "The Matrix",
+      year: "1999",
+      rating: "R",
+      image: "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
+
+    },
+    {
+      name: "13 Going on 30",
+      year: "2004",
+      rating: "PG-13",
+      image: "https://m.media-amazon.com/images/M/MV5BMTkzOGVmN2EtMjI0ZS00NjMxLThmNmUtZDg3ZjAyNzdlODg0XkEyXkFqcGdeQXVyNDI3NjU1NzQ@._V1_.jpg"
+
+    },
+    {
+      name: "Only Lovers Left Alive",
+      year: "2013",
+      rating: "R",
+      image: "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/192/2021/12/20123958/kffoWJ7FfPRlFFBGixOMbq3blQp-scaled.jpg"
+
+    },
+    {
+      name: "Fire of Love",
+      year: "2022",
+      rating: "PG",
+      image: "https://m.media-amazon.com/images/M/MV5BOTMwNjMxOWQtYTEyOC00OTUyLTlhMTItOGFkOTJkMWM1NDQ5XkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_FMjpg_UX1000_.jpg"
+
+    },
+    {
+      name: "Inside Out",
+      year: "2015",
+      rating: "PG",
+      image: "https://lumiere-a.akamaihd.net/v1/images/p_insideout_19751_af12286c.jpeg"
+
+    },
+  ]
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
     </div>
   );
 }
