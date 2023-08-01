@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
-
-function App() {
+import Movie from './components/Movie'
+import Movies from './components/Movies'
 
   const movies = [
     {
@@ -41,11 +40,23 @@ function App() {
     },
   ]
 
+const App = (props) => {
+  // const movieRendering = movies.map(movies => (
+  //   <Movie />
+  // ));
+
+  // <ObjectComponent key={object.id} object={object} />
+
   return (
     <div className="App">
-
+      <Movies movies={movies}/>
     </div>
   );
 }
+
+//Grab the movies array from props and 
+//use the Array Map method to look over the array and 
+// render a Movie (not Movies) component for each movie.
+//Using devtools, confirm that your component structure looks like so.
 
 export default App;
